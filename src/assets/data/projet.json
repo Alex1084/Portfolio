@@ -2,6 +2,7 @@
     {
         "id": 1,
         "titre": "Guntiaris",
+        "miniature": "../../assets/img/logo.png",
         "intro": "ce projet est un site permetant a des joueur de jeu de role de créer et de modifier des fiche de personnage en ligne",
         "details": "ce projet créer avec synfony m'a permis de m'innitier avec se framework de plus grace a certaine fonctionaliter ce projet m'a aussi initier au methode ajax",
         "github": "",
@@ -10,6 +11,7 @@
     {
         "id": 2,
         "titre": "application de sport",
+        "miniature": "",
         "intro": "cette application mobile a pour but de rentrer sur son smartphone les donnée d'un sport afin de visualiser avec un grphique l'evolution au cours du temps",
         "details": "après une première experiance sur le framework Flutter cette application a pour but d'aprofondir mes connaissance sur ce framework et sur SQlite",
         "github": "",
@@ -18,6 +20,7 @@
     {
         "id": 3,
         "titre": "PortFolio",
+        "miniature": "",
         "intro": "afin de mieux me connaitre j'ai confectionner se site",
         "details": "dans l'optique de me former sur le framework Angular j'ai créer se site web.",
         "github": "",
@@ -26,6 +29,7 @@
     {
         "id": 4,
         "titre": "site Ecomerce",
+        "miniature": "",
         "intro": "se site de Ecomerce est déveloper de la cadre d'un projet pendant les court de la 3WA",
         "details": "ce site develloper en PHP fromScratch est fais pour m'entrainer sur l'architecture MVC",
         "github": "",
@@ -34,6 +38,7 @@
     {
         "id": 5,
         "titre": "bot Disocrd",
+        "miniature": "",
         "intro": "un bot sur discord afin de voir comment sa marche",
         "details": "dev avec du js et heberger je sais pas où",
         "github": "",
@@ -42,6 +47,7 @@
     {
         "id": 6,
         "titre": "Guntiaris",
+        "miniature": "",
         "intro": "ce projet est un site permetant a des joueur de jeu de role de créer et de modifier des fiche de personnage en ligne",
         "details": "ce projet créer avec synfony m'a permis de m'innitier avec se framework de plus grace a certaine fonctionaliter ce projet m'a aussi initier au methode ajax",
         "github": "",
@@ -50,6 +56,7 @@
     {
         "id": 7,
         "titre": "application de sport",
+        "miniature": "",
         "intro": "cette application mobile a pour but de rentrer sur son smartphone les donnée d'un sport afin de visualiser avec un grphique l'evolution au cours du temps",
         "details": "après une première experiance sur le framework Flutter cette application a pour but d'aprofondir mes connaissance sur ce framework et sur SQlite",
         "github": "",
@@ -58,6 +65,7 @@
     {
         "id": 8,
         "titre": "PortFolio",
+        "miniature": "",
         "intro": "afin de mieux me connaitre j'ai confectionner se site",
         "details": "dans l'optique de me former sur le framework Angular j'ai créer se site web.",
         "github": "",
@@ -66,6 +74,7 @@
     {
         "id": 9,
         "titre": "site Ecomerce",
+        "miniature": "",
         "intro": "se site de Ecomerce est déveloper de la cadre d'un projet pendant les court de la 3WA",
         "details": "ce site develloper en PHP fromScratch est fais pour m'entrainer sur l'architecture MVC",
         "github": "",
