@@ -1,25 +1,10 @@
-<div id="title">
-
-    <svg class="svg" height="200px" width="600px">
-        <polygon points="100,25 25,25 75,75 25,125 125,125" fill="#767674" stroke="black"></polygon>
-        <polygon points="125,125 100,100 125,100" fill="black"></polygon>
-
-        <polygon points="500,25 575,25 525,75 575,125 475,125" fill="#767674" stroke="black"></polygon>
-        <polygon points="475,125 500,100 475,100" fill="black"></polygon>
-        <rect x="100" y="" width="400" height="100" fill="#80A7FF" stroke="black"></rect>
-
-        <text x="150" y="62" font-size="2.5rem" font-color="white">Projet Personnel</text>
-
-    </svg>
-</div>
+<app-title></app-title>
 <p>le monde du developpement est pour moi plus qu'un metier, j'aime construire et créer des site/application voici donc
     quelque projet que j'ai fais ou que je compte faire dans le simple but de m'ammuser.</p>
 
 <div id="content">
 
-    <div class="container projet" *ngFor="let projet of projets">
-        <!-- <p class="intro-projet">{{projet.intro}}</p>
-            <p class="detail-projet">{{projet.details}}</p> -->
+    <div class="projet-container" *ngFor="let projet of projets" (click)="detail(projet)">
         <img src="" alt="" height="140">
         <h3 class="title-project">{{projet.titre}}</h3>
         <div class="source">
@@ -31,6 +16,20 @@
         </div>
     </div>
 </div>
+<div [ngClass]="modalIsActive === true ? 'modal' : 'hide'">
+    <div class="custom-box">
+        <div>
+            <h5>{{projetInModal.titre}}</h5>
+            <p>{{projetInModal.intro}}</p>
+            <p>{{projetInModal.details}}</p>
+        </div>
+
+        <button (click)="modalClose()">Fermer</button> <!--  -->
+    </div>
+</div>
+
+<!-- <div id="modal" >
+</div> -->
 <!-- <div class="container projet">
     <h3 class="title-project"></h3>
     <p class="intro-projet">

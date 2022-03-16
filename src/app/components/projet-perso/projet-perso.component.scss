@@ -1,0 +1,46 @@
+.projet-container{
+    border: 1px solid;
+    height: 250px;
+    width: 250px;
+    background-color: #C1D4FE;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0;
+    display: block;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.418);
+}
+
+.projet-container:hover{
+    background-color: aqua;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+//~~~~~~~~~~~~~~~~~~ pop up ~~~~~~~~~~~~~~~~~~\\
+.custom-box {
+    border: 2px solid grey;
+    text-align: center;
+    padding: 10px;
+    width: fit-content;
+    background-color: white;
+    margin: auto;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hide{
+    display: none;
+}
