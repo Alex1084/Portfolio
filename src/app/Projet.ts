@@ -1,8 +1,10 @@
 export interface IProjet {
     id: number;
-    titre: String;
-    intro: String;
-    details: String;
-    github: String;
-    autre: String;
+    titre: string;
+    miniature: string;
+    technologie: string[];
+    intro: string;
+    details: string;
+    github: string;
+    autre: string;
 }

@@ -1,34 +1,81 @@
 .projet-container{
-    border: 1px solid;
-    height: 250px;
-    width: 250px;
+    height: 213px;
+    width: 320px;
     background-color: #C1D4FE;
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 30px;
     padding: 0;
     display: block;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.418);
-}
-
-.projet-container:hover{
-    background-color: aqua;
+    position: relative;
 }
 
 #content{
+    margin : 0 5% ;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100px, auto);
 }
 
+.logos{
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+}
+
+.title-project{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+}
+.projet-container:hover{
+    background-color: #80A7FF;
+    scale: 1.10;
+    -webkit-transition: 0.6s ease-in-out;
+	transition: 0.6s ease-in-out;
+}
+.projet-container:hover .miniature{
+    opacity: 0;
+    -webkit-transition: 0.6s ease-in-out;
+	transition: 0.6s ease-in-out;
+}
+.projet-container:hover h2{
+    opacity: 1;
+    -webkit-transition: 0.6s ease-in-out;
+	transition: 0.6s ease-in-out;
+    z-index: 999;
+}
+.projet-container:hover .logos{
+    opacity: 1;
+    -webkit-transition: 0.6s ease-in-out;
+	transition: 0.6s ease-in-out;
+    z-index: 999;
+}
+
+li{
+    list-style-type: none;
+}
+
 //~~~~~~~~~~~~~~~~~~ pop up ~~~~~~~~~~~~~~~~~~\\
 .custom-box {
-    border: 2px solid grey;
+    border: 2px solid gray;
     text-align: center;
     padding: 10px;
     width: fit-content;
-    background-color: white;
+    background-color: #C2D5FF;
     margin: auto;
+    height: 75vh;
+    width: 75vw;
+    border-radius: 20px;
+    overflow-y: scroll;
 }
 
 .modal {

@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  title: string = "bien le bonjour ! je vous souhaite une exelente journée"
   constructor() { }
 
   ngOnInit(): void {

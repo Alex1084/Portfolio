@@ -12,6 +12,8 @@ export class ProjetPersoComponent implements OnInit {
   projetInModal: IProjet = {
     id: 0,
     titre: '',
+    miniature: '',
+    technologie: [],
     intro: '',
     details: '',
     github: '',

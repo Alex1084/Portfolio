@@ -10,6 +10,9 @@ import { ProjetService } from './projet.service';
 import { DetailsComponent } from './components/details/details.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { TitleComponent } from './components/title/title.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { PipeModule } from './pipes/pipe.module';
+import { PipePerso } from './pipes/pipes-perso';
 
 
 @NgModule({
@@ -19,12 +22,14 @@ import { TitleComponent } from './components/title/title.component';
     ProjetPersoComponent,
     DetailsComponent,
     NotFoundComponent,
-    TitleComponent
+    TitleComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    PipeModule
   ],
   providers: [ProjetService],
   bootstrap: [AppComponent]
