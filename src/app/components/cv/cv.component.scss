@@ -1,0 +1,28 @@
+.section{
+    border: 1px solid black;
+    padding: 10px;
+    height: 20vh;
+    width: 50vw;
+    background-color: #C2D5FF;
+    margin: auto;
+    margin-bottom: 2%;
+    border-radius: 20px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container .section{
+    width: 30vw;
+    height: 40vh;
+}
+.section h2{
+    text-align: center;
+}
+
+.section span::after{
+    content: "\  ";
+    display: table;
+}

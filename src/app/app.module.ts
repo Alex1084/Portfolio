@@ -7,12 +7,11 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProjetPersoComponent } from './components/projet-perso/projet-perso.component';
 import { ProjetService } from './projet.service';
-import { DetailsComponent } from './components/details/details.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { TitleComponent } from './components/title/title.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { PipeModule } from './pipes/pipe.module';
-import { PipePerso } from './pipes/pipes-perso';
+import { CvComponent } from './components/cv/cv.component';
 
 
 @NgModule({
@@ -20,10 +19,10 @@ import { PipePerso } from './pipes/pipes-perso';
     AppComponent,
     HomeComponent,
     ProjetPersoComponent,
-    DetailsComponent,
     NotFoundComponent,
     TitleComponent,
-    NavbarComponent
+    NavbarComponent,
+    CvComponent
   ],
   imports: [
     BrowserModule,
